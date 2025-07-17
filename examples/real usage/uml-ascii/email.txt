@@ -1,0 +1,45 @@
+
+
+Assunto: Foco e Workflow do Dia: [Nome do Projeto, ex: Refatoração do Módulo de Pagamentos] - 17/07
+
+De: Eng. José Freire Pedrosa
+P/: Tomas Correa
+
+Olá, Tomas!
+
+Seguindo nosso planejamento dessa semana, o objetivo de hoje é claro: avançar da teoria para a prática na primeira fase da refatoração do Módulo de Pagamentos. Precisamos de entregas funcionais e verificáveis até o final do dia.
+
+O workflow está dividido em três blocos focados:
+
+1. Bloco Manhã (09:00 - 12:00) | Tarefa: Estruturação do Ambiente e Pipeline Base**
+Objetivo:Ter um ambiente de desenvolvimento limpo e um pipeline CI/CD mínimo que responda aos seus commits. Chega de "funciona na minha máquina".
+* **Entrega Concreta:**
+    * `Dockerfile` e `docker-compose.yml` finalizados para subir o serviço de pagamentos e suas dependências (banco de dados, cache).
+    * Pipeline inicial (GitLab CI/GitHub Actions) configurado para rodar `build` e `lint` a cada push no branch `feature/payment-refactor-core`.
+* **Checkpoint:** Me envie o link do repositório com os arquivos de configuração até as **12:00**. Quero ver o log do primeiro pipeline passando (mesmo que com falhas nos testes, que ainda não existem).
+
+**2. Bloco Tarde (13:30 - 16:00) | Tarefa: Implementação do Endpoint de Health Check**
+* **Objetivo:** Criar a primeira rota funcional do serviço, que servirá de base para todas as outras e para o monitoramento.
+* **Entrega Concreta:**
+    * Um endpoint `GET /health` que retorne `status: "ok"` e verifique a conexão com o banco de dados.
+    * Pull Request (PR) aberto para revisão. O PR deve ser pequeno, focado apenas nisso.
+* **Checkpoint:** PR aberto e link enviado no nosso canal até as **16:00**.
+
+**3. Bloco Final da Tarde (16:00 - 17:30) | Tarefa: Análise e Documentação de Contratos**
+* **Objetivo:** Mapear o próximo passo antes de começar a codificar a lógica de negócio.
+* **Entrega Concreta:**
+    * Na documentação (pode ser no `README.md` do PR ou na Wiki do projeto), liste os *endpoints* do serviço legado que serão refatorados primeiro, com seus respectivos *payloads* (requests e responses).
+* **Checkpoint:** Documento atualizado até o **EOD (End of Day)**.
+
+---
+
+**Ponto de Atenção:**
+Se encontrar qualquer bloqueio (um acesso que falta, uma dúvida sobre a arquitetura, uma dependência externa), a regra é: **não espere**. Me chame imediatamente. O custo de um problema aumenta exponencialmente com o tempo.
+
+Vamos focar no que pode ser entregue *hoje*. Qual o próximo passo prático que você vai dar *agora*?
+
+Mantenha o foco e vamos avançar. Fica com Deus! 
+
+Atenciosamente, Eng. José Freire Pedrosa
+
+Project Manager

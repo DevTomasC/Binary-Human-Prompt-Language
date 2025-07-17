@@ -1,0 +1,20 @@
+#EXEMPLO DE PROMPT SIMPLES E RÁPIDO COM USO DO <BHPL>
+
+
+[Automatize uma planilha]
+
+
+Quero um algoritmo que percorra todas as linhas de uma planilha Excel 
+(ou Google Sheets);
+alterne o conteúdo das células de cada linha assim:
+
+- Linha 1 → tudo em MAIÚSCULAS  
+- Linha 2 → tudo em minúsculas  
+- Linha 3 → tudo em MAIÚSCULAS  
+- Linha 4 → tudo em minúsculas  
+E assim por diante… (ATÉ O FIM DO DOC)
+
+
+Quero o código completo, explicações diretas e uma sugestão de como rodar(Python com openpyxl ou Google Apps Script, tanto faz); 
+Entenda que tenho pouco conhecimento de programação; 
+Precisa funcionar em qualquer planilha que eu usar.  (tem que ser reutilizável);

@@ -1,0 +1,56 @@
+Compreendido Tomas. Com base no e-mail do seu gestor, mapeei as atividades, ferramentas e pontos de decisão para gerar o diagrama de fluxo de trabalho em ASCII, conforme solicitado.
+Snippet de código: 
+
+[Início do Dia (09:00)]
+|
+v
+[**Bloco Manhã: Ambiente & Pipeline**]
+|
+v
+[Definir Dockerfile e docker-compose.yml]
+|  + [Ferramenta: Docker]
+v
+[Configurar Pipeline CI/CD (Build & Lint)]
+|  + [Ferramenta: GitLab CI / GitHub Actions]
+v
+[Executar 'git push' no branch 'feature/payment-refactor-core']
+|
+v
+[Verificar status 'pass' do Pipeline]
+|
+v
+[Enviar link do repositório para Gestor (Checkpoint 12:00)]
+|
+v
+[**Bloco Tarde: Implementação**]
+|
+v
+[Desenvolver endpoint GET /health com verificação de DB]
+|
+v
+[Abrir Pull Request (PR) para revisão]
+|  + [Ferramenta: Git]
+v
+[Enviar link do PR no canal de comunicação (Checkpoint 16:00)]
+|
+v
+[**Bloco Fim de Tarde: Análise & Documentação**]
+|
+v
+[Analisar endpoints e payloads do serviço legado]
+|
+v
+[Documentar Contratos (Requests/Responses) no README.md ou Wiki]
+|
+v
+[Finalizar e comitar documentação (Checkpoint EOD)]
+|
+v
+[Fim do Dia]
+
+--- [Processo de Contingência (Regra Contínua)] ---
+[Tarefa em Execução] +--> [Encontrar bloqueio?] +--> [Sim] --> [Contatar gestor imediatamente]
+                                |
+                                +--> [Não] --> [Continuar com a tarefa atual]
+
+O fluxo de trabalho descreve a refatoração de um módulo de pagamentos, começando pela configuração do ambiente com Docker e um pipeline de CI/CD. Em seguida, o processo foca na implementação de um endpoint health check, que deve ser submetido para revisão via Pull Request. O dia termina com a análise e documentação dos contratos da API legada. Um processo de escalonamento imediato ao gestor é definido para qualquer bloqueio encontrado, garantindo a fluidez das entregas.

@@ -24,4 +24,4 @@ A BHPL é conceitualmente inspirada por:
 
 -   **Estruturas Algorítmicas Clássicas:** A lógica procedural e o fluxo de controle.
 -   **Lógica Binária:** A clareza de uma relação comando/resposta.
--   **Programação Orientada a Objetos:** O encapsulamento de contexto e a herança de comportamento.
+-   **Programação Orientada a Objetos:** O encapsulamento de contexto e a herança de comportamento

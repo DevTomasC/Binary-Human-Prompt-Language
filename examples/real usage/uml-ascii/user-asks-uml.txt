@@ -1,0 +1,28 @@
+
+### Prompt feito por um usuario:
+
+[contexto]
+recebi um email com um texto descritivo vindo de meu gestor de projetos (em linguagem natural) que explica meu fluxo de trabalho típico de um dia, incluindo tarefas, decisões, ferramentas e interações;
+
+[Objetivo] 
+
+Quero converter esse conteúdo em um diagrama UML ASCII simples e direto, que represente visualmente o workflow (fluxo de trabalho), para que eu possa documentar e apresentar esse processo de forma técnica.
+
+[Instruções]
+
+ 1. Leia e compreenda o conteúdo do email como se estivesse mapeando o fluxo de um sistema.
+ 2. Identifique as seguintes entidades, se existirem:
+
+Atividades principais (tarefas executadas);
+Tomada de decisões (ex: "se aprovado", "caso contrário", etc.);
+Ferramentas ou sistemas usados;
+Interações humanas ou com sistemas (ex: enviar para gerente, preencher planilha, usar Redrive etc.);
+ 
+ 3. Modele o processo como um diagrama UML no estilo ASCII, preferencialmente diagrama de atividades ou fluxograma
+
+4. Seja sintético e direto, mas sem omitir os passos.
+5. Após gerar o diagrama, separe-o com uma linha e, abaixo, gere um pequeno resumo textual (máximo 5 linhas) explicando o fluxo.
+
+
+> (cole aqui o conteúdo completo do email){acesse o arquivo: email.txt}
+

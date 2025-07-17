@@ -1,33 +1,3 @@
-  ##  Exemplo de Prompt
-
-```bhpl
-<bhpl>
-
-<dev>
-
-atue como o melhor desenvolvedor de algoritmos.
-
-[contexto]
-estudante de engenharia de computação está aprendendo algoritmos clássicos;
-
-[objetivo]
-implementar um algoritmo de busca binária iterativa e recursiva; {!Python};
-
-$ restrições:
-- código limpo;
-- comentado e sem uso de bibliotecas externas;
-- explicar o funcionamento linha por linha;
-
-!!! formato de saída:
-- primeiro: versão iterativa;
-- depois: versão recursiva;
-- em seguida: exemplo prático rodando cada uma;
-- por fim: explicação do tempo de execução;
-
-idioma &: pt-br
-
-<dev+>
-
 
 ## saída: Python
 
@@ -73,3 +43,6 @@ def busca_binaria_iterativa(array: list, alvo: int) -> int:
 
     # Se o laço terminar, o alvo não está na lista.
     return -1
+
+
+##using Google Gemini
