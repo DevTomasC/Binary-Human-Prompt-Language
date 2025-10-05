@@ -9,14 +9,14 @@
 ---
 ##  Propósito
 
-A missão da BHPL é **reduzir a complexidade semântica** na interação humano-IA. A linguagem permite a construção de prompts lógicos, modulares e expressivos, especialmente para domínios técnicos como:
+A missão da BHPL é **reduzir a complexidade semântica** na interação humano-IA. o padrão permite a construção de prompts lógicos, modulares e expressivos, especialmente para domínios técnicos como:
 
 -   Engenharia de Software
 -   Análise de Sistemas
 -   Automação de Fluxos de Trabalho
 -   Análise de Dados
 
-Ao modularizar intenções em blocos semânticos onde as chaves <> encapsulam contextos de comportamento e reação, os prompts se tornam mais legíveis, reaproveitáveis e determinísticos.
+Onde se mostra ainda mais efetivo quando o assunto é modularizar intenções em blocos semânticos de pseudo código onde as chaves <> encapsulam contextos de comportamento e reação, os prompts se tornam mais legíveis, reaproveitáveis e determinísticos.
 
 ##  Princípios da Linguagem
 
@@ -25,3 +25,4 @@ A BHPL é conceitualmente inspirada por:
 -   **Estruturas Algorítmicas Clássicas:** A lógica procedural e o fluxo de controle.
 -   **Lógica Binária:** A clareza de uma relação comando/resposta.
 -   **Programação Orientada a Objetos:** O encapsulamento de contexto e a herança de comportamento
+-   **Linguagens de programação**: Shell, YAML, PYTHON, XML.
